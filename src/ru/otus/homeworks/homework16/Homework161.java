@@ -11,9 +11,9 @@ public class Homework161 {
         squizArray[1][0] = new String[]{"cs", "java", "class", "exe"};
         squizArray[1][1] = new String[]{"commit", "push", "clone", "copy"};
         squizArray[1][2] = new String[]{"while", "for", "loop"};
-        squizArray[2][0] = new Integer[]{3};
-        squizArray[2][1] = new Integer[]{3};
-        squizArray[2][2] = new Integer[]{1};
+        squizArray[2][0][0] = 3;
+        squizArray[2][1][0] = 3;
+        squizArray[2][2][0] = 1;
 
         for (int i = 0; i < squizArray[0][0].length; i++) {
             System.out.println(squizArray[0][0][i]);
